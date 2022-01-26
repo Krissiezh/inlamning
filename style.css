@@ -1,0 +1,182 @@
+* {
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+      background: black; 
+      }
+    
+    .header {
+    color: rgb(177, 11, 102);
+    font-size: 35px;
+    }
+    
+    /* navigationbar */
+    .topnav a {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    
+    }
+    
+    .topnav a:hover {
+      background-color: #75063a;
+      color: rgb(255, 255, 255);}
+    
+    /* end of navigationbar */
+    
+    /* start of startpage */
+    
+    .bg-image{
+      width:100%;
+      height:100vh;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url( images/poeny.jpg);
+      background-size:cover;
+    }        
+    
+    .content{
+      width:100%;
+      position: absolute;
+      top: 30%;
+      transform: translateY( -50%);
+      text-align: center;
+    }
+    
+    .content header{
+      color: rgb(177, 11, 102);
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    .content h2{
+      font-size: 50px;
+      color:#ddd;
+    }
+    
+    /* end of startpage */
+    
+    
+    /* start of portofolio/flexbox */
+      
+    .container { 
+      display:flex;
+      justify-content: last baseline;
+      width: auto;
+       }
+    
+    .foto1 {
+    flex: 1;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    
+    }
+    
+    .foto2 {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: justify;
+    
+      }
+    
+      .foto3 {
+        flex: 1;
+        padding: 30px;
+        background-color:rgb(255, 255, 255);
+        text-align: justify;
+        
+          }
+    
+    /* end of portofolio/flexbox */
+    
+    /* Code of aboutme_page */
+    
+    .about{
+    width: 100%;
+    padding: 60px 0px;
+    background-color:rgb(22, 22, 22);
+    }
+    
+    .about img{
+    height: auto;
+    width: 380px;
+    }
+    
+    .about-text{
+    width: 550px;
+    }
+    
+    .main {
+    width: 1120px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    .about-text h2{
+    color: white;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 20 px;
+    color: #a70b54;
+    
+    }
+    .about-text h5{
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      text-transform:initial;
+      margin-bottom: 20 px;
+      color: #fcfcfc;
+      
+      }
+    
+    .about-text p{
+      color: white;
+      font-size: 15px;
+      text-transform: initial;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    
+    button {
+    display: inline-block;
+    background: #790e40;
+    color: white;
+    border: 1px solid #a70b54;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0;
+    padding: 20px 30px;
+    transition: all 0.2s;
+    
+    }
+    
+    button:hover {
+      background-color: rgb(255, 255, 255);
+      color: #9b0745;
+      text-decoration: none
+    
+    }
+     /* end of aboutme_page*/
+    
+     /* Code for startpage */
+    
+     .site-footer {
+      text-align: center;
+      color: darkgray;
+      font-size: 12px;
+      height: 20px;
+      background-color: black;
+     }
+    
+    /* Code for flexbox/portofolio */
